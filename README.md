@@ -2,7 +2,7 @@
 
 An advanced AI application that leverages Google's Gemini AI for comprehensive resume analysis and automated LinkedIn job scraping using Selenium web automation.
 
-## 🚀 Features
+## Features
 
 ### 📄 Resume Analysis
 - **Comprehensive Summarization**: Get detailed resume summaries highlighting qualifications, experience, skills, and achievements
@@ -11,13 +11,13 @@ An advanced AI application that leverages Google's Gemini AI for comprehensive r
 - **Job Title Recommendations**: Get personalized job title suggestions based on your profile
 - **Custom Q&A**: Ask specific questions about your resume and get AI-powered answers
 
-### 🔗 LinkedIn Job Scraping
+### LinkedIn Job Scraping
 - **Automated Job Search**: Search for jobs by title and location
 - **Comprehensive Data Extraction**: Get company names, job titles, locations, URLs, and descriptions
 - **Export Functionality**: Download job data as CSV files
 - **Interactive Display**: Browse jobs in an easy-to-read format
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 - **Python** - Core programming language
 - **Streamlit** - Web application framework
@@ -26,7 +26,7 @@ An advanced AI application that leverages Google's Gemini AI for comprehensive r
 - **PyPDF2** - PDF text extraction
 - **Pandas** - Data manipulation and export
 
-## 📦 Quick Start
+## Quick Start
 
 ### Option 1: Easy Setup (Recommended)
 ```bash
@@ -66,7 +66,7 @@ You'll need a Google Gemini API key to use the resume analysis features. You can
 ### Chrome Driver
 The LinkedIn scraper uses Chrome WebDriver, which is automatically managed by `webdriver-manager`. Make sure you have Chrome browser installed on your system.
 
-## 📖 Usage Guide
+## Usage Guide
 
 ### Resume Analysis
 1. **Upload PDF**: Select your resume file (PDF format only)
@@ -87,7 +87,7 @@ The LinkedIn scraper uses Chrome WebDriver, which is automatically managed by `w
 3. **View Results**: Browse jobs in the interactive table
 4. **Export Data**: Download results as CSV for further analysis
 
-## 🔄 How It Works
+## How It Works
 
 ### Resume Analysis Pipeline
 1. **PDF Processing**: Extract text from uploaded PDF using PyPDF2
@@ -104,7 +104,7 @@ The LinkedIn scraper uses Chrome WebDriver, which is automatically managed by `w
 4. **Data Processing**: Clean and structure the scraped data
 5. **Result Display**: Present data in user-friendly format with export options
 
-## 🎯 Key Benefits
+## Key Benefits
 
 - **Time-Saving**: Automated analysis and job searching
 - **AI-Powered Insights**: Get professional-level resume feedback
@@ -112,14 +112,14 @@ The LinkedIn scraper uses Chrome WebDriver, which is automatically managed by `w
 - **Export Options**: Save and analyze data offline
 - **User-Friendly**: Intuitive interface suitable for all skill levels
 
-## 🔒 Privacy & Security
+## Privacy & Security
 
 - **Local Processing**: Resume analysis happens locally with secure API calls
 - **No Data Storage**: Your resume data is not stored on servers
 - **Secure Connections**: All API communications are encrypted
 - **Optional Headless Mode**: LinkedIn scraping can run in background
 
-## 🚨 Important Notes
+## Important Notes
 
 ### LinkedIn Scraping Disclaimer
 - This tool is for educational and personal use only
@@ -132,7 +132,7 @@ The LinkedIn scraper uses Chrome WebDriver, which is automatically managed by `w
 - Monitor your API usage through the OpenAI dashboard
 - The application uses GPT-3.5 Turbo for cost-effectiveness
 
-## 🛠️ Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -155,7 +155,7 @@ The LinkedIn scraper uses Chrome WebDriver, which is automatically managed by `w
 - Try using different search terms or reducing request frequency
 - Consider using VPN if IP is blocked
 
-## 📈 Future Enhancements
+## Future Enhancements
 
 I'd like to add several features to make this application even more powerful. Here are some ideas:
 
@@ -171,9 +171,7 @@ I'd like to add several features to make this application even more powerful. He
 - **Job Alert System**: Automated job matching and notifications
 - **Resume Version Control**: Track resume improvements over time
 
-**Would you like me to implement any of these features?** Let me know which ones interest you most, and I can add them to the application.
-
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 - Report bugs or issues
@@ -181,18 +179,18 @@ Contributions are welcome! Feel free to:
 - Submit pull requests
 - Improve documentation
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📞 Support
+## Support
 
 If you encounter any issues or have questions:
 1. Check the troubleshooting section above
 2. Review the GitHub issues for similar problems
 3. Create a new issue with detailed information about the problem
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - OpenAI for providing powerful language models
 - LangChain community for excellent RAG framework
@@ -202,5 +200,4 @@ If you encounter any issues or have questions:
 ---
 
 **Happy Job Hunting! 🎯**
-# Resume-Analyzer-GenAI
 # Resume-Analyzer-GenAI
